@@ -132,3 +132,20 @@ str2 = 'Aman'
 list1 = [[10,90,343,89], [20,944,11,6], [33,9,3,1]]
 
 ans = [[1,3,6,9], [10,11,20,33], []]
+
+
+str1 = "restart"
+
+
+# Method - 1
+char = str1[0]
+print((str1[::-1].replace(char,'$',1))[::-1])  # resta$t
+
+s1 = str1[1:]
+
+s1 = s1.replace(str1[0],'$')
+
+print(str1[0] + s1)
+# for i in range(1,len(str1)):
+#     if str1[i] == char:
+#         print(str1.replace(str1[i],'$'))   # $esta$t
