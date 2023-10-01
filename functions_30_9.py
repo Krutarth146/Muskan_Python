@@ -25,7 +25,7 @@
 
 
 
-# Type - 1   withourt Return Type and Without Args.
+# Type - 1   without Return Type and Without Args.
 
 def Muskan():
     print(90 + 23)
